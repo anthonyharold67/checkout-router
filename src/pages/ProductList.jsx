@@ -7,10 +7,16 @@ const url = "https://63f4e5583f99f5855db9e941.mockapi.io/products";
 
 const ProductList = () => {
   const [products, setProducts] = useState([]);
+  const [loading,setLoading] = useState(true);
 
   const getData = async () => {
-    const { data } = await axios.get(url);
-    setProducts(data);
+    try {
+      const { data } = await axios.get(url);
+      setProducts(data);
+      setLoading(false)
+    } catch (error) {
+
+    }
   };
 
   useEffect(() => {
@@ -55,7 +61,9 @@ const ProductList = () => {
         className={
           products.length > 0 ? "bg-light d-sm-block d-md-flex" : "bg-light"
         }>
-        {products.length > 0 ? (
+        {loading ? (
+          <p className="text-center text-danger w-100">Loading....</p>
+        ) : products.length > 0 ? (
           <>
             <article id="product-panel" className="col-md-5">
               {products.map((item) => (

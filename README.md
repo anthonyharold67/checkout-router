@@ -92,7 +92,7 @@ Build a Checkout Page App using ReactJS.
 
 ## How do we create mockApi? Watch the video!
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=3ZB7eM-Be98" target="_blank">
- <img src="https://i9.ytimg.com/vi/3ZB7eM-Be98/mqdefault.jpg?sqp=CIiY058G-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgXyhHMA8=&rs=AOn4CLAfy0IDqvoBcCqkFB9zW2bFUnh-IA" alt="Watch the video" title="Watch the video" />
+ Watch the video
 </a>
 
 
