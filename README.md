@@ -83,7 +83,7 @@ Build a Checkout Page App using ReactJS.
 - You can add additional functionalities(storage or mockApi etc.) to your app.
 
 ## Demo
-  <a href="https://checkout-axios.vercel.app/" target="_blank">React Checkout Page</a>
+  <a href="https://checkout-router.vercel.app/" target="_blank">React Checkout Router with Axios</a>
 
 ## MockApi
 
